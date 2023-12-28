@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>My Page</title>
+</head>
+<body>
+   <h2>Tap the gay button to assess the picture</h2>
+   <button id="show-image-button">gay</button>
+   <img id="my-image" 
+   src="file:///C:/Users/Joelhanz/Desktop/HTML/aaron.jpg" 
+   style="display: none;">
+   <script>
+      const showImageButton = document.getElementById("show-image-button");
+      const myImage = document.getElementById("my-image"); 
+      showImageButton.addEventListener("click", () => { 
+         myImage.style.display = "block"; 
+      });
+   </script>
+</body>
+</html>
