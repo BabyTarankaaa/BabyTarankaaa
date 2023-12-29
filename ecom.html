@@ -1,31 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <body style = "background-color: lightblue;"
+  <body style = "background-color: black;"
 <head>
-    <title>Your E-commerce Shop</title>
+    <title>Easy Eat Store</title>
     <style>
-        /* Add your CSS styles here */
+        .store-name{
+            color:white;
+            font-style:Arial;
+            font-size:15px;
+        }
+
+        .icon-color{
+            color:white;
+        }
+
+        .home-icon,
+        .products-icon,
+        .contacts-icon{
+            color:white;
+        }
+
+        .about-us,
+        .footer-color{
+            color:white;
+        }
+
+        .image-size{
+            width:300px;
+            height:300px;
+            object-fit:cover;
+        }
+
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Walmart</h1>
+    <header class="store-name">
+        <h1>Welcome to Easy Eat Store</h1>
+        <img class="image-size" src="noodles.jpg">
     </header>
     <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+        <ul class="icon-color">
+            <li ><a class="home-icon" href="home.html">Home</a></li>
+            <li ><a class="products-icon"href="products.html">Products</a></li>
+            <li ><a class="contacts-icon"href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
     <main>
         <section id="home">
-            <h2>Intro to Wallmart.</h2>
+            <h2 class="about-us">About Us</h2>
             <!-- Add your homepage content here -->
         </section>
     </main>
-    <footer>
-        <!-- Add your footer content here -->
+    <footer class="footer-color">
+        <p>Thank you for supporting us!</p>
     </footer>
 </body>
 </html>
